@@ -16,9 +16,9 @@
 			var NextPage='&pageToken='+pagetoken,
 				aranan=query,
 				Max = 16,
+				key  = 'sizin google api key',
 				JSONurl= 'https://www.googleapis.com/youtube/v3/search?part=snippet&q='+aranan+'&key='+key+'&maxResults='+Max+'&type=video'+NextPage,
-				sonuc = $("#sonuc"),
-				key  = 'sizin google api key';
+				sonuc = $("#sonuc");
 			sonuc.empty();	
 				
 			$.getJSON(JSONurl ,function(data){
