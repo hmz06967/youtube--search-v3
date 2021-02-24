@@ -8,4 +8,4 @@ Youtube arama özelliği v3 sınfını php olarak da ekleyeceğiz fakat şuan i�
 
 Kılavyeden her tuşa bastığınızda Arama sonuçları dakikasıyla birlikte listelenicek.
 
-HAKKIMIZDA : https://you-mp3.net/hakknda/
+HAKKIMIZDA : https://hamzaozkan.com.tr
