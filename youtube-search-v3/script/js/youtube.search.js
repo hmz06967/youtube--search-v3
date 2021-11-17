@@ -46,15 +46,5 @@
 		}
 	});
 	
-	$(document).ready(function(){
-		
-		$('#test_arama').keyup(function(){
-			
-			var query = $(this).val();
-			console.log(query); //test edelim.
-			$.ARamaYap.SerializeQuerySearch(query,"");
-			
-		});		
-		
-	});
+
 
