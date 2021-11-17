@@ -3,7 +3,19 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="../script/js/youtube.search.js" ></script>
-
+<script>
+  	$(document).ready(function(){
+		
+		$('#test_arama').keyup(function(){
+			
+			var query = $(this).val();
+			console.log(query); //test edelim.
+			$.ARamaYap.SerializeQuerySearch(query,"");
+			
+		});		
+		
+	});
+</script>
 </head>
 <body>
 <input id="test_arama"/>
